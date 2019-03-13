@@ -55,7 +55,6 @@ function ps_button1_Callback(hObject, eventdata, handles)
 handles.output = handles.ps_edit1.String;
 guidata(hObject, handles);
 
-% 解除畫面鎖定
 uiresume(handles.figure1);
 
 % --- Outputs from this function are returned to the command line.
